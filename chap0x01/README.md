@@ -124,7 +124,7 @@
   
     ![](images/查看服务.png)
 
-+ 第三步：在`kali-victim-1`和`xp-victim-1`进行网络配置，使其能够通过DHCP请求的方式从网关debian处动态获取IP地址。
++ 第三步：对靶机进行网络配置，使其能够通过DHCP请求的方式从网关debian处动态获取IP地址。
 
   + `kali-victim-1`
 
