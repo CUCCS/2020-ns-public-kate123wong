@@ -102,7 +102,7 @@
     dhcp-range=192.168.1.10,192.168.1.150,255.255.255.0,12h
     dhcp-option=3,192.168.1.1
     
-    interface=enp0s8
+    interface=enp0s9
     listen-address=192.168.2.1
     dhcp-range=192.168.2.10,192.168.2.150,255.255.255.0,12h
     dhcp-option=3,192.168.2.1
