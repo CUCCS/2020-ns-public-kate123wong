@@ -6,9 +6,9 @@
 
 ### 实验环境
 
-+ Virtualbox
-+ kali
-+ debian
++ Virtualbox6.1.8-137981
++ kali 10 5.7.0
++ debian 4.19.0
 
 - python3 + [scapy](https://scapy.net/)2.4
 
@@ -26,7 +26,6 @@
 
 ```
 iptables -F //清除所有iptables规则
-
 ```
 
 
@@ -87,6 +86,8 @@ iptables -F //清除所有iptables规则
       2   172 ufw-track-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
   kate@kate-VirtualBox:~/桌面$ 
   ```
+
++ [实验代码](./scanner.py)
 
 #### TCP connect扫描
 
@@ -256,9 +257,9 @@ iptables -F //清除所有iptables规则
 
 #### 其他实验问题的回答
 
-> 每一次扫描测试分析与课本中的扫描方法原理是否相符？如果不同，试分析原因；
+> 提供每一次扫描测试的抓包结果并分析与课本中的扫描方法原理是否相符？如果不同，试分析原因；
 
-基本相同。
+完全相同。
 
 ### 参考
 
