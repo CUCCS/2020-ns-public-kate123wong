@@ -98,7 +98,7 @@ apt install libperl4-corelibs-perl
 
 ![image-20201124145805161](images/image-20201124145805161.png)
 
-本次实验需要的一个最小化的实验环境是2台主机，假设网络拓扑信息如下：
+本次实验需要的一个最小化的实验环境是2台主机，网络拓扑信息如下：
 
 + VM-1 IP: 10.0.2.5 enp0s3 Nat网络 运行 `snort` 和 `guardian.pl`
 + VM-2 IP: 10.0.2.15 enp0s3 Nat网络  运行 `nmap` 
